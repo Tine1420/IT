@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Christine Nicole P. Miranda - Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and Main Layout */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Section (Hero Section) */
+        .hero {
+            background: #0078D7;
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+            margin-bottom: 40px;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .hero .btn {
+            padding: 10px 20px;
+            background: #fff;
+            color: #0078D7;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+
+        .hero .btn:hover {
+            background-color: #e7e7e7;
+        }
+
+        /* About Section */
+        .about {
+            margin-bottom: 60px;
+        }
+
+        .about h2 {
+            font-size: 2em;
+            color: #0078D7;
+            margin-bottom: 15px;
+        }
+
+        .about p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+
+        .profile-pic {
+            width: 150px; /* Adjust the size as needed */
+            height: auto; /* Maintains aspect ratio */
+            border-radius: 50%; /* Makes the image circular */
+            display: block; /* Ensures block-level element for alignment */
+            margin: 20px auto; /* Centers the image */
+        }
+
+        /* Other Sections and Footer - No Changes */
+        .quote, .hobbies, .skills, .contact, footer {
+            margin-bottom: 60px;
+        }
+
+        .quote blockquote {
+            font-size: 1.3em;
+            font-style: italic;
+            color: #555;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2em;
+            }
+
+            .hero p {
+                font-size: 1em;
+            }
+
+            .container {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <h1>Hi! Good day! Welcome to my Portfolio!</h1>
+            <p>I’m Christine Nicole P. Miranda</p>
+            <a href="#about" class="btn">Learn More About Me</a>
+        </div>
+    </header>
+
+    <section id="about" class="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <!-- Profile Picture -->
+        <img src="idpic.jpg" alt="Christine Nicole P. Miranda" class="profile-pic">
+        <!-- Name and Additional Information -->
+        <h3 style="text-align: center; margin-top: 10px;">Christine Nicole P. Miranda</h3>
+        <p style="text-align: center; font-size: 1.1em; color: #555; margin-top: 5px;">
+            1st Year Student at Batangas State University
+        </p>
+      <p style="text-align: center; font-size: 1.1em; color: #555; margin-top: 5px;">
+            Bachelor of Science in Computer Science
+        </p>
+       <p style="text-align: center; font-size: 1.1em; color: #555; margin-top: 5px;">
+            CS-1104
+        </p>
+        <p>
+            Growing up, I always had a passion for technology and creativity, which inspired me to dive into the world of computer science. I enjoy solving problems, exploring new ideas, and learning how technology can make a difference in people’s lives. My journey is just beginning, but I am determined to build a career where I can contribute to innovative solutions and make a meaningful impact.
+        </p>
+        <p>
+            Beyond academics, I value personal growth and cherish the moments that challenge me to be better. Whether it's through collaborating with others, pursuing hobbies, or overcoming obstacles, I believe in embracing life with a positive mindset and an eagerness to learn.
+        </p>
+    </div>
+</section>
+
+    <section class="quote">
+        <div class="container">
+            <h2>Quote</h2>
+            <blockquote>
+                <p>"Programming isn't about what you know; it's about what you can figure out." – Chris Pine</p>
+            </blockquote>
+            <p>Programming teaches us that life, like code, is a process of continuous problem-solving. It reminds us to approach challenges with curiosity and creativity, to break problems into manageable pieces, and to never fear failure because every error is a stepping stone to success.</p>
+        </div>
+    </section>
+
+   <section class="hobbies">
+    <div class="container">
+        <h2>Hobbies</h2>
+        <p>Let me share some of the activities that bring joy and balance to my life:</p>
+        <ul>
+            <li>
+                <strong>Reading Stories:</strong> 
+                I enjoy immersing myself in fictional worlds through books and stories. It’s my way of escaping reality, exploring new perspectives, and learning life lessons through the eyes of different characters. Whether it’s a fantasy novel, a thriller, or a heartfelt romance, every story inspires me in unique ways.
+            </li>
+            <li>
+                <strong>Playing Online Games:</strong> 
+                Gaming allows me to unwind and connect with friends. It sharpens my problem-solving skills, enhances teamwork, and teaches patience in competitive settings. Plus, it’s a fun way to challenge myself and discover new strategies.
+            </li>
+            <li>
+                <strong>Playing Sports:</strong> 
+                Although I play sports occasionally, I love how they help me stay active, improve my focus, and develop discipline. Whether it’s a casual game with friends or a more structured activity, sports always leave me feeling refreshed and energized.
+            </li>
+        </ul>
+    </div>
+</section>
+
+   <section class="skills">
+    <div class="container">
+        <h2>Skills</h2>
+        <p>Here are some of the skills that define my personality and work ethic:</p>
+        <ul>
+            <li>
+                <strong>Hardworking:</strong> 
+                I believe in putting my best effort into everything I do, regardless of the challenges. Whether it's academic projects, personal goals, or team tasks, I approach them with dedication and perseverance. Even when faced with doubt or criticism, I stay focused and committed to achieving success.
+            </li>
+            <li>
+                <strong>Time Management:</strong> 
+                Being organized is essential to me. I prioritize tasks effectively, ensuring that everything is aligned and completed on time. This skill helps me balance my academic responsibilities, hobbies, and personal life without feeling overwhelmed.
+            </li>
+            <li>
+                <strong>Multitasking:</strong> 
+                I excel at handling multiple tasks simultaneously while maintaining quality and efficiency. For instance, I can juggle academic work, extracurricular activities, and personal projects by staying focused and adaptable. This skill has taught me to work smarter, not just harder.
+            </li>
+        </ul>
+    </div>
+</section>
+
+    <section class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>For more information, you can reach me via:</p>
+            <ul>
+                <li>Email: <a href="mailto:christinenicolemiranda0@gmail.com">christinenicolemiranda0@gmail.com</a></li>
+                <li>Facebook: <a href="https://facebook.com" target="_blank">Christine Nicole P. Miranda</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Christine Nicole P. Miranda. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
